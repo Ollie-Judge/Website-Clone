@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  letter-spacing: 1.5px;
 }
 
 body {
@@ -13,6 +14,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.title {
+  margin-bottom: 100px;
+}
+
+.paragraph {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* General Buttons */
@@ -159,6 +169,7 @@ p {
   width: 500px;
   height: 250px;
   background-color: black;
+  margin-bottom: 25px;
 }
 
 .about {
@@ -227,6 +238,8 @@ form {
 
 .minaAt {
   text-decoration: underline;
+  padding-top: 50px;
+  font-size: 26px;
 }
 
 /* Footer Section */
@@ -239,6 +252,7 @@ footer {
   flex-wrap: wrap;
   background-color: #eeeeee;
   padding-top: 125px;
+  padding-bottom: 75px;
 }
 
 .footerMina {
