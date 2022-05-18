@@ -1,0 +1,205 @@
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* General Buttons */
+.buy,
+.learn {
+  text-align: center;
+  padding: 15px 30px;
+  border: 2px solid #340034;
+  background-color: white;
+  color: #340034;
+}
+
+.buy:hover,
+.learn:hover {
+  color: white;
+  background-color: #340034;
+}
+
+.shopNow,
+.submit {
+  border: none;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.shopNow:hover,
+.submit:hover {
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nav bar */
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleContainer {
+  align-self: center;
+  padding-left: 150px;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Handmade Ceramics Section */
+
+.handmade {
+  padding: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: pink;
+  width: 100%;
+  color: white;
+}
+
+h1,
+h6 {
+  padding-bottom: 70px;
+}
+
+p {
+  padding-bottom: 30px;
+}
+
+/* Best sellers section */
+
+.bestsellers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.forSale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.item {
+  text-align: center;
+  margin: 1vw;
+  width: 25%;
+}
+
+.a {
+  margin: 1vw;
+  width: 25%;
+  background-color: black;
+}
+
+.buyNow {
+  display: flex;
+  justify-content: center;
+}
+
+/* Home Decor Section */
+
+.homeDecor {
+  padding: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  width: 100%;
+  color: white;
+}
+
+/* About Section */
+
+.learnMore {
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/* Newsetter Section */
+
+.newsLetter {
+  padding: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+  width: 100%;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  margin-top: 75px;
+  margin-bottom: 25px;
+}
+
+.submit {
+  border: none;
+  background-color: white;
+}
+
+/* Instagram Section */
+
+.insta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.photoGallery {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.photo {
+  text-align: center;
+  margin: 1vw;
+  width: 25%;
+  background-color: aquamarine;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerNav {
+  flex-direction: row;
+}
