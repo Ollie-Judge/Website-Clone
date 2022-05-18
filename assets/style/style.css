@@ -79,11 +79,10 @@ header {
   padding-top: 75px;
 }
 
-.navContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+nav li {
+  padding-top: 50px;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 /* Handmade Ceramics Section */
@@ -281,7 +280,8 @@ footer {
 
 .footerNav {
   text-decoration: underline;
-  padding-right: 150px;
+  display: inline-block;
+  padding: 0 20px;
 }
 
 .credit {
