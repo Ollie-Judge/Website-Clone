@@ -305,9 +305,18 @@ footer {
 }
 
 .footerNav {
-  text-decoration: underline;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 0 20px;
+}
+
+.footerLinks {
+  list-style: outside none none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .credit {
