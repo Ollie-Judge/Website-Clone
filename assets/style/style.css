@@ -275,7 +275,7 @@ form {
 
 /* Footer Section */
 
-footer {
+.footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -286,37 +286,42 @@ footer {
   padding-bottom: 75px;
 }
 
+.socials {
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerNav {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.socialItems {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: underline;
+  align-self: center;
+}
+
 .footerMina {
   padding-left: 150px;
-  padding-bottom: 50px;
+  margin-top: 25px;
 }
 
 .facebook {
   padding-left: 45px;
   padding-right: 45px;
-}
-
-.socials {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  padding-left: 150px;
-}
-
-.footerNav {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0 20px;
-}
-
-.footerLinks {
-  list-style: outside none none;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .credit {
