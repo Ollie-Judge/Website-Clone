@@ -55,8 +55,10 @@ main {
   background-color: #eeeeee;
 }
 
-a {
+a,
+button {
   text-decoration: none;
+  cursor: pointer;
 }
 
 a:visited {
@@ -76,13 +78,20 @@ header {
 .titleContainer {
   align-self: center;
   padding-left: 150px;
-  padding-top: 75px;
+  padding-top: 77px;
+  color: black;
+  display: inline-block;
+}
+
+ul {
+  margin-right: 150px;
+  margin-top: 75px;
 }
 
 nav li {
-  padding-top: 50px;
   display: inline-block;
   padding: 0 20px;
+  color: black;
 }
 
 /* Handmade Ceramics Section */
@@ -98,13 +107,30 @@ nav li {
   color: white;
 }
 
+h1 {
+  font-size: 95px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 44px;
+}
+
 h1,
 h6 {
   padding-bottom: 70px;
 }
 
+h5 {
+  font-size: 28px;
+}
+
 p {
   padding-bottom: 30px;
+  font-size: 24px;
 }
 
 /* Best sellers section */
